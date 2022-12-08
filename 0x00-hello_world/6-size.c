@@ -12,29 +12,29 @@ int main(void)
 
 {
 
-	int i;
+	int a;
 
-	double d;
+	double b;
 
 	char c;
-	int long_int;
+	long int d;
 
-	int long_long_int;
+	long long int e;
 
 	float f;
 
 
-	printf("The size of an int is: %lu.\n", (unsigned long) sizeof (i));
+	printf("The size of an int is: %lu.\n", (unsigned long) sizeof (a));
 
-	printf("The size of a double is: %lu.\n", (unsigned long) sizeof (d));
+	printf("The size of a double is: %lu.\n", (unsigned long) sizeof (b));
 
 	printf("The size of a char is: %lu.\n", (unsigned long) sizeof (c));
 
-	printf("The size of a long_int is: %lu.\n", (unsigned long) sizeof (long_int));
+	printf("The size of a long_int is: %lu.\n", (unsigned long) sizeof (d));
 
-	printf("The size of a long_long_int is: %lu.\n", (unsigned long) sizeof (long_long_int));
+	printf("The size of a long_long_int is: %lu.\n", (unsigned long) sizeof (e));
 
-	printf("The size of a float is: %lu.\n", (unsigned long) sizeof (float));
+	printf("The size of a float is: %lu.\n", (unsigned long) sizeof (f));
 	return (0);
 
 }
