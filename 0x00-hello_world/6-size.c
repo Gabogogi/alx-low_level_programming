@@ -22,9 +22,9 @@ int main(void)
 	float f;
 
 
-	printf("The size of an int is: %lu.\n", (unsigned long) sizeof (a));
+	printf("The size of an char is: %lu.\n", (unsigned long) sizeof (c));
 
-	printf("The size of a char is: %lu.\n", (unsigned long) sizeof (c));
+	printf("The size of a int is: %lu.\n", (unsigned long) sizeof (a));
 
 	printf("The size of a long int is: %lu.\n", (unsigned long) sizeof (d));
 
