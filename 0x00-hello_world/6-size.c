@@ -14,8 +14,6 @@ int main(void)
 
 	int a;
 
-	double b;
-
 	char c;
 	long int d;
 
@@ -25,8 +23,6 @@ int main(void)
 
 
 	printf("The size of an int is: %lu.\n", (unsigned long) sizeof (a));
-
-	printf("The size of a double is: %lu.\n", (unsigned long) sizeof (b));
 
 	printf("The size of a char is: %lu.\n", (unsigned long) sizeof (c));
 
