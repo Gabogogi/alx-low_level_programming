@@ -4,10 +4,11 @@
  * Description: 'the program's description'
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	int ch;
-	for (ch = 'a'; ch <= 'z'; ch ++)
+
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar (ch);
 	}
