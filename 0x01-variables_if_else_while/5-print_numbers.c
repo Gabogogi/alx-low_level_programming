@@ -7,7 +7,7 @@
 int main (void)
 {
 	int a;
-	for (a=0; a<11; ++a0)
+	for (a=0; a<11; ++a)
 		printf("%d\n", a);
 	return 0;
 }
