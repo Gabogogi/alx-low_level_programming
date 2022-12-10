@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *main - Prints all possible combinations of two two-digit numbers, ranging from 0-99
+ *main - Prints all possible combin ranging from 0-99
 *Return: Always 0.
  */
-int main (void)
+int main(void)
 {
 	int num1, num2;
 
