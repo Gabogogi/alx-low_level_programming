@@ -4,6 +4,7 @@
  *
  *  @n: the init in question
  *
+ * Return: the abs of int
  */
 int _abs(int n)
 {
