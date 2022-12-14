@@ -4,7 +4,7 @@
  * Description: 'the program's description'
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 	puts("_putchar");
 	return (0);
