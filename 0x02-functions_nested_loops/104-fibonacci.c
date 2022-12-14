@@ -33,6 +33,6 @@ int main(void)
 		if (count != 97)
 			printf(", ");
 	}
-	printf("\n")
+	printf("\n");
 	return (0);
 }
