@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_times _table - Prints a multiplication table to par
+ * print_times_table - Prints a multiplication table to par
  *
  * @n: The number to be used
  *
