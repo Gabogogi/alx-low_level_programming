@@ -6,7 +6,7 @@
  *
  * Return: 1 if char is letter or upper, 0 otehrwise
  */
-int_isalpha(int c)
+int _isalpha(int c)
 {
 	if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
