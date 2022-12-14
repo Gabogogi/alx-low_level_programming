@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: 'the program's description'
+ * print_alphabet -prints alphabet in lower case
  * Return: Always 0 (success)
  */
-void print_alphabet(void) /*You*/
+void print_alphabet(void)
 {
 	char c;
 
