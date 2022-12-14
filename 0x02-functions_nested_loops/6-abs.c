@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * -abs - computes the abs value of an int
+ * -abs - computes the absolute value of an integer
+ *
  *  @n: the init in question
+ *
  */
 int _abs(int n)
 {
