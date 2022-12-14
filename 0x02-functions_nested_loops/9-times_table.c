@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * time_table - prints 9 times table starting with 0
+ * times_table - prints 9 times table starting with 0
  * rone = row, cone = column, d = digits of current result
  * Return: times table
  * add additional space past single digit
