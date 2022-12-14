@@ -4,7 +4,7 @@
  * Description: 'the program's description'
  * Return: Always 0 (success)
  */
-int main()
+int main(){
 	char c;
 	for(c = 'a'; c <= 'z'; c++){
 		putchar(c);
