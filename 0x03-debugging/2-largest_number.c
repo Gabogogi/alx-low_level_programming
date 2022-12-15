@@ -5,6 +5,7 @@
  * @a: first number
  * @b: second number
  * @c: third number
+ * Return: Largest
  */
 int largest_number(int a, int b, int c)
 {
@@ -14,7 +15,7 @@ int largest_number(int a, int b, int c)
 	{
 		largest = a;
 	}
-	elseif (b >= a && b >= c)
+	else if (b >= a && b >= c)
 	{
 		largest = b;
 	}
