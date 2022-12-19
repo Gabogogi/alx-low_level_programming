@@ -9,12 +9,12 @@ void rev_string(char *s)
 {
 	int i, j, count = 0;
 	char rev;
-	
+
 	while (s[count] != '\0')
 	{
 		count++;
 	}
-	j = count -1;
+	j = count - 1;
 	
 	for (i = 0; j >= 0 && i < j; j--, i++)
 	{
