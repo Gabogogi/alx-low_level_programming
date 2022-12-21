@@ -4,14 +4,14 @@
  * @*: string to be affected
  * Return: 0
  */
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
-	int i;
-	for (i = 0; *(i) != '\0'; i++)
+	int i = 0;
+	while (*(s + i))
 	{
-		if (*[i] >= 97 && *[i] <= 122)
-		{
-			*[i] = *[i] - 32;
-		}
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
+			*(s + i) -= 'a' - 'A';
+		i++;
 	}
+	return (s);
 }
