@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_line - prints the contents of size byte of a buffer
- * @c: buffer to print
- * @s: bytes of buffer to print
- * @l: line of buffer to print
+ * print_buffer - prints the contents of size byte of a buffer
+ * @b: buffer pointer
+ * @size: size in bytes
  *
  * Return: void
  */
@@ -30,7 +29,7 @@ void print_buffer(char *b, int size)
 		{
 			if ((index + byte) >= size)
 				break;
-			else if (*(b + index + byte) >= 31 && *(b + index + byte) <=126)
+			else if (*(b + index + byte) >= 31 && *(b + index + byte) <= 126)
 				printf("%c", *(b + index + byte));
 			else
 				printf(".");
