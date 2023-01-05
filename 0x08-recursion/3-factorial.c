@@ -19,7 +19,7 @@ int factorial(int n)
 	}
 	else
 	{
-		f = n * factorial (n - 1);
+		f = n * factorial(n - 1);
 	}
 			return (f);
 }
