@@ -20,7 +20,7 @@ int main(int argc, char **argv)
 		return (0);
 	}
 
-	for (c = 1; i < argc; c++)
+	for (c = 1; c < argc; c++)
 	{
 		for (d = 0; argv[c][d] != '\0'; d++)
 		{
