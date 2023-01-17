@@ -1,6 +1,7 @@
-struct dog {
-        char *name;
-        char *owner;
-        float age;
-    };
+struct dog
+{
+	char *name;
+	char *owner;
+	float age;
+};
 
