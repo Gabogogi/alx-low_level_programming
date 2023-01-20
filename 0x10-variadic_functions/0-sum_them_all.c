@@ -2,7 +2,6 @@
 
 /**
  * sum_them_all - finds sum of all numbers
- * 
  * @n: count
  * Return: 0
  */
