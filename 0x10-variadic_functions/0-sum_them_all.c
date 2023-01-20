@@ -3,9 +3,8 @@
 /**
  * sum_them_all - finds sum of all numbers
  * 
- * @mynumbers: numbers to be added
  * @n: count
- * Return: sum of numbers
+ * Return: 0
  */
 
 int sum_them_all(const unsigned int n, ...)
