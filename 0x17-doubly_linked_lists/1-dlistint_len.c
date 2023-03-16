@@ -1,6 +1,7 @@
 #include "lists.h"
 /*
- * dlistint_len - number of elements in a linked list_t list
+ * dlistint_len - returns the number of elements in
+ * a double linked list
  * @h: singly linked list.
  * Return: number of elements in the list
  */
