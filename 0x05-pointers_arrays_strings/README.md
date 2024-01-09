@@ -1,1 +1,1 @@
-Please read me
+Introduction to pointers in C!
